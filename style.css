@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+body{
+    background-color: rgb(8, 5, 22);
+    height: 100vh;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+}
+h2{
+    text-decoration: 2px underline;
+}
+.instructions{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 20px;
+    background-color: black;
+}
+h3{
+    text-align: center;
+}
+.buttons{
+    padding-top: 2rem;
+}
+.btn ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
+}
+button{
+    background-color: orangered;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+}
+button:hover{
+    color: lawngreen;
+}
+.scores{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 40px;
+}
+.dashboard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.results{
+    padding: 3rem;
+    font-size: 40px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.274);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.footer ul{
+    padding-top: 2rem;
+    color: black;
+    padding-right: 3rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.footer ul :hover{
+    color: aqua;
+}
+.leader{
+    font-size: xx-large;
+    padding-right: 2rem;
+    padding-top: 3rem;
+}
+.played-css{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 11rem;
+    padding-top: 3rem;
+}
