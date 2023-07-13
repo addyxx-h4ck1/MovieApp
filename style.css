@@ -68,7 +68,7 @@ input{
 }
 }
 
-@media screen and (min-width: 721px){
+@media screen and (min-width: 650px){
     .thumbnail{
         height: 300px;
         width: 200px;
